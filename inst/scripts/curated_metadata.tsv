@@ -1,0 +1,804 @@
+series_id	sample_id	pmid	time	media	treatment	treatment_target	treatment_type	treatment_subtype	treatment_time	treatment_duration	treatment_dose	treatment_dose_unit	channels	gpl	geo_missing	symbol_missing	perturbation_type
+GSE122054	GSM3453832	31199203	48	MDI	knockdown	slincRAD	shRNA		-1				1	GPL11202	0	0	genetic
+GSE122054	GSM3453833	31199203	96	MDI	knockdown	slincRAD	shRNA		-1				1	GPL11202	0	0	genetic
+GSE122054	GSM3453834	31199203	0	none	knockdown	slincRAD	shRNA		-1				1	GPL11202	0	0	genetic
+GSE122054	GSM3453835	31199203	-48	MDI	knockdown	slincRAD	shRNA		-1				1	GPL11202	0	0	genetic
+GSE122054	GSM3453836	31199203	48	MDI	none	none	shRNA		-1				1	GPL11202	0	0	genetic
+GSE122054	GSM3453837	31199203	96	MDI	none	none	shRNA		-1				1	GPL11202	0	0	genetic
+GSE122054	GSM3453838	31199203	0	none	none	none	shRNA		-1				1	GPL11202	0	0	genetic
+GSE122054	GSM3453839	31199203	-48	MDI	none	none	shRNA		-1				1	GPL11202	0	0	genetic
+GSE102403	GSM2736085	30231671	6	MDI	none	none	siRNA		-1		100	nm		GPL16570	0	0	genetic
+GSE102403	GSM2736086	30231671	6	MDI	none	none	siRNA		-1		100	nm		GPL16570	0	0	genetic
+GSE102403	GSM2736087	30231671	6	MDI	none	none	siRNA		-1		100	nm		GPL16570	0	0	genetic
+GSE102403	GSM2736088	30231671	6	none	none	none	none							GPL16570	0	0	genetic
+GSE102403	GSM2736089	30231671	6	none	none	none	none							GPL16570	0	0	genetic
+GSE102403	GSM2736090	30231671	6	none	none	none	none							GPL16570	0	0	genetic
+GSE102403	GSM2736091	30231671	6	MDI	knockdown	Cd24a	siRNA		-1		100	nm		GPL16570	0	0	genetic
+GSE102403	GSM2736092	30231671	6	MDI	knockdown	Cd24a	siRNA		-1		100	nm		GPL16570	0	0	genetic
+GSE102403	GSM2736093	30231671	6	MDI	knockdown	Cd24a	siRNA		-1		100	nm		GPL16570	0	0	genetic
+GSE93637	GSM2459304	29593329	0	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459305	29593329	0	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459306	29593329	0	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459307	29593329	0	MDI	knockdown	Trp53inp2	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459308	29593329	0	MDI	knockdown	Trp53inp2	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459309	29593329	0	MDI	knockdown	Trp53inp2	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459310	29593329	168	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459311	29593329	168	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459312	29593329	168	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459313	29593329	168	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459314	29593329	168	MDI	knockdown	Trp53inp2	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459315	29593329	168	MDI	knockdown	Trp53inp2	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459316	29593329	168	MDI	knockdown	Trp53inp2	siRNA		-1					GPL1261	0	0	genetic
+GSE93637	GSM2459317	29593329	168	MDI	knockdown	Trp53inp2	siRNA		-1					GPL1261	0	0	genetic
+GSE97241	GSM2560113	29075020	0	none	none	none	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560114	29075020	0	none	none	none	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560115	29075020	0	none	none	none	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560116	29075020	0	none	knockdown	Paral1	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560117	29075020	0	none	knockdown	Paral1	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560118	29075020	0	none	knockdown	Paral1	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560119	29075020	168	MDI	none	none	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560120	29075020	168	MDI	none	none	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560121	29075020	168	MDI	none	none	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560122	29075020	168	MDI	knockdown	Paral1	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560123	29075020	168	MDI	knockdown	Paral1	siRNA		1	48				GPL20775	0	0	genetic
+GSE97241	GSM2560124	29075020	168	MDI	knockdown	Paral1	siRNA		1	48				GPL20775	0	0	genetic
+GSE73231	GSM1889011	26590716	0	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889012	26590716	0	MDI	knockdown	Setdb1	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889013	26590716	36	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889014	26590716	36	MDI	knockdown	Setdb1	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889015	26590716	0	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889016	26590716	0	MDI	knockdown	Setdb1	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889017	26590716	48	MDI	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889018	26590716	48	MDI	knockdown	Setdb1	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889019	26590716	0	none	none	none	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889020	26590716	0	none	knockdown	Setdb1	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889021	26590716	0	none	knockdown	Mbd1	siRNA		-1					GPL1261	0	0	genetic
+GSE73231	GSM1889022	26590716	0	none	knockdown	Mcaf1	siRNA		-1					GPL1261	0	0	genetic
+GSE69313	GSM1697529	26218273	0	none	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697530	26218273	0	none	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697531	26218273	0	none	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697532	26218273	0	none	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697533	26218273	0	none	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697534	26218273	0	none	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697535	26218273	0	none	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697536	26218273	0	none	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697537	26218273	0	none	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697538	26218273	0	none	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697539	26218273	0	none	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697540	26218273	0	none	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697541	26218273	6	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697542	26218273	6	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697543	26218273	6	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697544	26218273	6	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697545	26218273	6	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697546	26218273	6	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697547	26218273	6	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697548	26218273	6	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697549	26218273	6	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697550	26218273	6	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697551	26218273	6	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697552	26218273	6	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697553	26218273	24	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697554	26218273	24	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697555	26218273	24	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697556	26218273	24	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697557	26218273	24	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697558	26218273	24	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697559	26218273	24	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697560	26218273	24	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697561	26218273	24	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697562	26218273	24	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697563	26218273	24	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697564	26218273	24	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697565	26218273	72	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697566	26218273	72	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697567	26218273	72	MDI	none	none	none							GPL6246	0	0	genetic
+GSE69313	GSM1697568	26218273	72	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697569	26218273	72	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697570	26218273	72	MDI	none	none	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697571	26218273	72	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697572	26218273	72	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697573	26218273	72	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697574	26218273	72	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697575	26218273	72	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE69313	GSM1697576	26218273	72	MDI	knockdown	Fto	siRNA		-1	24				GPL6246	0	0	genetic
+GSE64154	GSM1565356	25533466	48	MDI	none	none	retrovirus		-1					GPL1261	0	0	genetic
+GSE64154	GSM1565357	25533466	48	MDI	overexpression	Fbxl10	retrovirus		-1					GPL1261	0	0	genetic
+GSE58193	GSM1402903	24174531	240	MDI	none	none	shRNA		1					GPL1261	0	0	genetic
+GSE58193	GSM1402904	24174531	240	MDI	none	none	shRNA		1					GPL1261	0	0	genetic
+GSE58193	GSM1402905	24174531	240	MDI	none	none	shRNA		1					GPL1261	0	0	genetic
+GSE58193	GSM1402906	24174531	240	MDI	knockdown	Ebf1	shRNA		1					GPL1261	0	0	genetic
+GSE58193	GSM1402907	24174531	240	MDI	knockdown	Ebf1	shRNA		1					GPL1261	0	0	genetic
+GSE58193	GSM1402908	24174531	240	MDI	knockdown	Ebf1	shRNA		1					GPL1261	0	0	genetic
+GSE58193	GSM1402909	24174531	240	MDI	knockdown	Ebf1	shRNA		1					GPL1261	0	0	genetic
+GSE58193	GSM1402910	24174531	240	MDI	knockdown	Ebf1	shRNA		1					GPL1261	0	0	genetic
+GSE58193	GSM1402911	24174531	240	MDI	knockdown	Ebf1	shRNA		1					GPL1261	0	0	genetic
+GSE25423	GSM624121	23595969	0	none	none	none	siRNA		1	24				GPL1261	0	0	genetic
+GSE25423	GSM624122	23595969	0	none	none	none	siRNA		1	24				GPL1261	0	0	genetic
+GSE25423	GSM624123	23595969	0	none	knockdown	Kdm1a	siRNA		1	24				GPL1261	0	0	genetic
+GSE25423	GSM624124	23595969	0	none	knockdown	Kdm1a	siRNA		1	24				GPL1261	0	0	genetic
+GSE25423	GSM624125	23595969	0	none	none	none	siRNA		1	48				GPL1261	0	0	genetic
+GSE25423	GSM624126	23595969	0	none	none	none	siRNA		1	48				GPL1261	0	0	genetic
+GSE25423	GSM624127	23595969	0	none	none	none	siRNA		1	48				GPL1261	0	0	genetic
+GSE25423	GSM624128	23595969	0	none	knockdown	Kdm1a	siRNA		1	48				GPL1261	0	0	genetic
+GSE25423	GSM624129	23595969	0	none	knockdown	Kdm1a	siRNA		1	48				GPL1261	0	0	genetic
+GSE25423	GSM624130	23595969	0	none	knockdown	Kdm1a	siRNA		1	48				GPL1261	0	0	genetic
+GSE28587	GSM707648	24141283	240	MDI	none	none	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707649	24141283	240	MDI	none	none	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707650	24141283	240	MDI	none	none	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707651	24141283	240	MDI	none	none	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707652	24141283	240	MDI	knockdown	Kat5	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707653	24141283	240	MDI	knockdown	Kat5	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707654	24141283	240	MDI	knockdown	Kat5	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707655	24141283	240	MDI	knockdown	Kat5	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707656	24141283	240	MDI	knockdown	Usp7	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707657	24141283	240	MDI	knockdown	Usp7	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707658	24141283	240	MDI	knockdown	Usp7	siRNA		1	48				GPL13383	0	0	genetic
+GSE28587	GSM707659	24141283	240	MDI	knockdown	Usp7	siRNA		1	48				GPL13383	0	0	genetic
+GSE48344	GSM1175359	23775123	168	MDI	overexpression	Glb1	adenovirus		1	24				GPL10787	0	1	genetic
+GSE48344	GSM1175360	23775123	168	MDI	overexpression	Glb1	adenovirus		1	24				GPL10787	0	1	genetic
+GSE48344	GSM1175361	23775123	168	MDI	overexpression	Glb1	adenovirus		1	24				GPL10787	0	1	genetic
+GSE48344	GSM1175362	23775123	168	MDI	overexpression	Glb1	adenovirus		1	24				GPL10787	0	1	genetic
+GSE48344	GSM1175363	23775123	168	MDI	overexpression	Spi1	adenovirus		1	24				GPL10787	0	1	genetic
+GSE48344	GSM1175364	23775123	168	MDI	overexpression	Spi1	adenovirus		1	24				GPL10787	0	1	genetic
+GSE48344	GSM1175365	23775123	168	MDI	overexpression	Spi1	adenovirus		1	24				GPL10787	0	1	genetic
+GSE48344	GSM1175366	23775123	168	MDI	overexpression	Spi1	adenovirus		1	24				GPL10787	0	1	genetic
+GSE43658	GSM1067681	23499424	216	MDI	none	none	shRNA		1	72				GPL14661	0	1	genetic
+GSE43658	GSM1067682	23499424	216	MDI	none	none	shRNA		1	72				GPL14661	0	1	genetic
+GSE43658	GSM1067683	23499424	216	MDI	none	none	shRNA		1	72				GPL14661	0	1	genetic
+GSE43658	GSM1067684	23499424	216	MDI	knockdown	Tbl1rxr1	shRNA		1	72				GPL14661	0	1	genetic
+GSE43658	GSM1067685	23499424	216	MDI	knockdown	Tbl1rxr1	shRNA		1	72				GPL14661	0	1	genetic
+GSE43658	GSM1067686	23499424	216	MDI	knockdown	Tbl1rxr1	shRNA		1	72				GPL14661	0	1	genetic
+GSE43658	GSM1067690	23499424	216	MDI	"knockdown,drug"	"Tbl1rxr1,lipolysis"	"siRNA,isoproterenol"		1	"72,3"	10	mcm		GPL14661	0	1	genetic
+GSE43658	GSM1067691	23499424	216	MDI	"knockdown,drug"	"Tbl1rxr1,lipolysis"	"siRNA,isoproterenol"		1	"72,3"	10	mcm		GPL14661	0	1	genetic
+GSE43658	GSM1067692	23499424	216	MDI	"knockdown,drug"	"Tbl1rxr1,lipolysis"	"siRNA,isoproterenol"		1	"72,3"	10	mcm		GPL14661	0	1	genetic
+GSE40565	GSM996652	25047837	48	MDI	overexpression	Isl1	retrovirus		-1	48				GPL6246	0	0	genetic
+GSE40565	GSM996653	25047837	48	MDI	overexpression	Isl1	retrovirus		-1	48				GPL6246	0	0	genetic
+GSE40565	GSM996654	25047837	48	MDI	overexpression	Isl1	retrovirus		-1	48				GPL6246	0	0	genetic
+GSE40565	GSM996655	25047837	48	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM996656	25047837	48	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM996657	25047837	48	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1229007	25047837	0	none	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1229008	25047837	0	none	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1229009	25047837	0	none	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1229010	25047837	0	none	overexpression	Isl1	retrovirus		-1	48				GPL6246	0	0	genetic
+GSE40565	GSM1229011	25047837	0	none	overexpression	Isl1	retrovirus		-1	48				GPL6246	0	0	genetic
+GSE40565	GSM1229012	25047837	0	none	overexpression	Isl1	retrovirus		-1	48				GPL6246	0	0	genetic
+GSE40565	GSM1371239	25047837	0.5	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371240	25047837	0.5	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371241	25047837	0.5	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371242	25047837	1	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371243	25047837	1	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371244	25047837	1	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371245	25047837	2	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371246	25047837	2	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371247	25047837	2	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371248	25047837	4	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371249	25047837	4	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371250	25047837	4	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371251	25047837	8	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371252	25047837	8	MDI	none	none	none							GPL6246	0	0	genetic
+GSE40565	GSM1371253	25047837	8	MDI	none	none	none							GPL6246	0	0	genetic
+GSE18598	GSM462488	22453831	24	MDI	none	none	siRNA		-1	-48				GPL1261	0	0	genetic
+GSE18598	GSM462489	22453831	24	MDI	knockdown	Kdm1a	siRNA		-1	-48				GPL1261	0	0	genetic
+GSE18598	GSM462490	22453831	24	MDI	knockdown	Rfk	siRNA		-1	-48				GPL1261	0	0	genetic
+GSE18599	GSM462492	22453831	24	MDI	none	none	siRNA		-1	24				GPL1261	0	0	genetic
+GSE18599	GSM462493	22453831	24	MDI	knockdown	Phf21a	siRNA		-1	24				GPL1261	0	0	genetic
+GSE12929	GSM324286	19300518	-48	none	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324287	19300518	-48	none	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324288	19300518	-48	none	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324289	19300518	-48	none	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324290	19300518	-48	none	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324291	19300518	-48	none	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324292	19300518	0	none	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324293	19300518	0	none	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324294	19300518	0	none	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324295	19300518	0	none	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324296	19300518	0	none	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324297	19300518	0	none	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324298	19300518	24	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324299	19300518	24	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324300	19300518	24	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324301	19300518	24	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324302	19300518	24	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324303	19300518	24	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324304	19300518	48	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324305	19300518	48	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324306	19300518	48	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324307	19300518	48	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324308	19300518	48	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324309	19300518	48	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324310	19300518	72	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324311	19300518	72	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324312	19300518	72	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324313	19300518	72	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324314	19300518	72	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324315	19300518	72	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324316	19300518	96	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324317	19300518	96	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324318	19300518	96	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324319	19300518	96	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324320	19300518	96	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324321	19300518	96	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324322	19300518	120	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324323	19300518	120	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324324	19300518	120	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324325	19300518	120	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324326	19300518	120	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324327	19300518	120	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324328	19300518	144	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324329	19300518	144	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324330	19300518	144	MDI	none	none	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324331	19300518	144	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324332	19300518	144	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE12929	GSM324333	19300518	144	MDI	knockdown	Pparg	siRNA		-1		50	nm		GPL6103	0	0	genetic
+GSE14004	GSM351690	19136559	0	none	none	none	none							GPL1261	0	0	genetic
+GSE14004	GSM351691	19136559	0	none	none	none	none							GPL1261	0	0	genetic
+GSE14004	GSM351692	19136559	0	none	none	none	none							GPL1261	0	0	genetic
+GSE14004	GSM351693	19136559	0	MDI	none	none	siRNA		1		2	nm		GPL1261	0	0	genetic
+GSE14004	GSM351694	19136559	0	MDI	none	none	siRNA		1		2	nm		GPL1261	0	0	genetic
+GSE14004	GSM351695	19136559	0	MDI	none	none	siRNA		1		2	nm		GPL1261	0	0	genetic
+GSE14004	GSM351696	19136559	336	MDI	knockdown	Pparg	siRNA		1		2	nm		GPL1261	0	0	genetic
+GSE14004	GSM351697	19136559	336	MDI	knockdown	Pparg	siRNA		1		2	nm		GPL1261	0	0	genetic
+GSE14004	GSM351698	19136559	336	MDI	knockdown	Pparg	siRNA		1		2	nm		GPL1261	0	0	genetic
+GSE6643	GSM149667	18061577	240	MDI	none	none	tet		-1					GPL2897	0	1	genetic
+GSE6643	GSM153970	18061577	240	MDI	none	none	tet		-1					GPL2897	0	1	genetic
+GSE6643	GSM153977	18061577	240	MDI	none	none	tet		-1					GPL2897	0	1	genetic
+GSE6643	GSM153979	18061577	240	MDI	overexpression	Ucp1	tet		-1					GPL2897	0	1	genetic
+GSE6643	GSM153981	18061577	240	MDI	overexpression	Ucp1	tet		-1					GPL2897	0	1	genetic
+GSE6643	GSM153982	18061577	240	MDI	overexpression	Ucp1	tet		-1					GPL2897	0	1	genetic
+GSE34150	GSM842900	26408941	0	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842901	26408941	48	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842902	26408941	96	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842903	26408941	144	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842904	26408941	192	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842905	26408941	240	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842906	26408941	336	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842907	26408941	432	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842908	26408941	0	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842909	26408941	48	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842910	26408941	96	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842911	26408941	144	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842912	26408941	192	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842913	26408941	240	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842914	26408941	336	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842915	26408941	432	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842916	26408941	0	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842917	26408941	48	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842918	26408941	96	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842919	26408941	144	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842920	26408941	192	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842921	26408941	240	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842922	26408941	336	MDI	none	none	none							GPL6885	0	0	none
+GSE34150	GSM842923	26408941	432	MDI	none	none	none							GPL6885	0	0	none
+GSE6794	GSM156862	17276354	-48	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156863	17276354	0	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156864	17276354	6	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156865	17276354	12	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156866	17276354	24	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156867	17276354	48	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156868	17276354	72	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156869	17276354	96	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156870	17276354	168	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156871	17276354	672	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156872	17276354	-48	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156873	17276354	0	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156874	17276354	6	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156875	17276354	12	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156876	17276354	24	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156877	17276354	48	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156878	17276354	72	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156879	17276354	96	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156880	17276354	168	MDI	none	none	none							GPL75	0	0	none
+GSE6794	GSM156881	17276354	672	MDI	none	none	none							GPL75	0	0	none
+GSE94539	GSM2477870	31392929	0	none	none	none	none							GPL6246	0	0	pharmacological
+GSE94539	GSM2477871	31392929	0	none	drug	AMPK	adenine		0	72	0.5	mm		GPL6246	0	0	pharmacological
+GSE94539	GSM2477872	31392929	0	none	drug	AMPK	AICAR		0	72	0.5	mm		GPL6246	0	0	pharmacological
+GSE94539	GSM2477873	31392929	144	MDI	none	none	none							GPL6246	0	0	pharmacological
+GSE94539	GSM2477874	31392929	144	MDI	drug	AMPK	adenine		0	72	0.5	mm		GPL6246	0	0	pharmacological
+GSE94539	GSM2477875	31392929	144	MDI	drug	AMPK	AICAR		0	72	0.5	mm		GPL6246	0	0	pharmacological
+GSE70854	GSM1820513	26245760	240	MDI	none	none	ethanol							GPL1261	0	0	pharmacological
+GSE70854	GSM1820514	26245760	240	MDI	drug	protease	ritonavir		1		20	mcm		GPL1261	0	0	pharmacological
+GSE70854	GSM1820515	26245760	240	MDI	drug	protease	tenofovir		1		1	mcm		GPL1261	0	0	pharmacological
+GSE70854	GSM1820516	26245760	240	MDI	drug	protease	"ritonavir,dmso"		1		20	mcm		GPL1261	0	0	pharmacological
+GSE70854	GSM1820517	26245760	240	MDI	drug	protease	"ritonavir,CLA"	c9t11	1		20100	mcm		GPL1261	0	0	pharmacological
+GSE70854	GSM1820518	26245760	240	MDI	drug	protease	"ritonavir,CLA"	t10c12	1		20100	mcm		GPL1261	0	0	pharmacological
+GSE64075	GSM1563855	26445566	168	MDI	drug	PPARG	diclofenac		1	24	25	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563856	26445566	168	MDI	none	none	dmso							GPL6887	0	0	pharmacological
+GSE64075	GSM1563857	26445566	168	MDI	drug	PPARG	indomethacin		1	24	10	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563858	26445566	168	MDI	drug	insulin response	rosiglitazone		1	24	100	nm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563859	26445566	168	MDI	none	none	dmso							GPL6887	0	0	pharmacological
+GSE64075	GSM1563860	26445566	168	MDI	drug	insulin response	rosiglitazone		1	24	100	nm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563861	26445566	168	MDI	none	none	dmso							GPL6887	0	0	pharmacological
+GSE64075	GSM1563862	26445566	168	MDI	drug	PPARG	ibuprofen		1	24	75	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563863	26445566	168	MDI	drug	PPARG	ibuprofen		1	24	75	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563864	26445566	168	MDI	drug	PPARG	GQ16		1	24	10	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563865	26445566	168	MDI	drug	PPARG	diclofenac		1	24	25	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563866	26445566	168	MDI	drug	PPARG	ibuprofen		1	24	75	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563867	26445566	168	MDI	drug	PPARG	GQ16		1	24	10	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563868	26445566	168	MDI	drug	PPARG	GQ16		1	24	10	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563869	26445566	168	MDI	drug	insulin response	rosiglitazone		1	24	100	nm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563870	26445566	168	MDI	drug	PPARG	diclofenac		1	24	25	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563871	26445566	168	MDI	drug	PPARG	indomethacin		1	24	10	mcm		GPL6887	0	0	pharmacological
+GSE64075	GSM1563872	26445566	168	MDI	drug	PPARG	indomethacin		1	24	10	mcm		GPL6887	0	0	pharmacological
+GSE56440	GSM1361598	25126729	240	MDI	drug	none	dmso							GPL1261	0	0	pharmacological
+GSE56440	GSM1361599	25126729	240	MDI	drug	none	dmso							GPL1261	0	0	pharmacological
+GSE56440	GSM1361600	25126729	240	MDI	drug	none	dmso							GPL1261	0	0	pharmacological
+GSE56440	GSM1361601	25126729	240	MDI	drug	BECN1	berberine		1	12	5	mm		GPL1261	0	0	pharmacological
+GSE56440	GSM1361602	25126729	240	MDI	drug	BECN1	berberine		1	12	5	mm		GPL1261	0	0	pharmacological
+GSE56440	GSM1361603	25126729	240	MDI	drug	BECN1	berberine		1	12	5	mm		GPL1261	0	0	pharmacological
+GSE56440	GSM1361604	25126729	240	MDI	drug	BECN1	berberine		1	3	5	mm		GPL1261	0	0	pharmacological
+GSE56440	GSM1361605	25126729	240	MDI	drug	BECN1	berberine		1	3	5	mm		GPL1261	0	0	pharmacological
+GSE56440	GSM1361606	25126729	240	MDI	drug	BECN1	berberine		1	3	5	mm		GPL1261	0	0	pharmacological
+GSE56440	GSM1361607	25126729	240	MDI	drug	BECN1	berberine		1	6	5	mm		GPL1261	0	0	pharmacological
+GSE56440	GSM1361608	25126729	240	MDI	drug	BECN1	berberine		1	6	5	mm		GPL1261	0	0	pharmacological
+GSE56440	GSM1361609	25126729	240	MDI	drug	BECN1	berberine		1	6	5	mm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530547	25503565	336	none	none	none	none							GPL1261	0	0	pharmacological
+GSE62635	GSM1530548	25503565	336	none	none	none	none							GPL1261	0	0	pharmacological
+GSE62635	GSM1530549	25503565	336	none	none	none	none							GPL1261	0	0	pharmacological
+GSE62635	GSM1530550	25503565	336	MDI	drug	insulin response	dexamethasone		1	2	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530551	25503565	336	MDI	drug	insulin response	dexamethasone		1	2	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530552	25503565	336	MDI	drug	insulin response	dexamethasone		1	2	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530553	25503565	336	MDI	drug	insulin response	dexamethasone		1	24	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530554	25503565	336	MDI	drug	insulin response	dexamethasone		1	24	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530555	25503565	336	MDI	drug	insulin response	dexamethasone		1	24	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530556	25503565	336	MDI	drug	insulin response	dexamethasone		1	144	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530557	25503565	336	MDI	drug	insulin response	dexamethasone		1	144	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530558	25503565	336	MDI	drug	insulin response	dexamethasone		1	144	20	nm		GPL1261	0	0	pharmacological
+GSE62635	GSM1530559	25503565	336	MDI	drug	insulin response	TNF		1	2				GPL1261	0	0	pharmacological
+GSE62635	GSM1530560	25503565	336	MDI	drug	insulin response	TNF		1	2				GPL1261	0	0	pharmacological
+GSE62635	GSM1530561	25503565	336	MDI	drug	insulin response	TNF		1	2				GPL1261	0	0	pharmacological
+GSE62635	GSM1530562	25503565	336	MDI	drug	insulin response	TNF		1	24				GPL1261	0	0	pharmacological
+GSE62635	GSM1530563	25503565	336	MDI	drug	insulin response	TNF		1	24				GPL1261	0	0	pharmacological
+GSE62635	GSM1530564	25503565	336	MDI	drug	insulin response	TNF		1	24				GPL1261	0	0	pharmacological
+GSE62635	GSM1530565	25503565	336	MDI	drug	insulin response	TNF		1	144				GPL1261	0	0	pharmacological
+GSE62635	GSM1530566	25503565	336	MDI	drug	insulin response	TNF		1	144				GPL1261	0	0	pharmacological
+GSE62635	GSM1530567	25503565	336	MDI	drug	insulin response	TNF		1	144				GPL1261	0	0	pharmacological
+GSE56688	GSM1366860	24788520	168	MDI	none	none	dmso		1					GPL11533	0	0	pharmacological
+GSE56688	GSM1366861	24788520	168	MDI	none	none	dmso		1					GPL11533	0	0	pharmacological
+GSE56688	GSM1366862	24788520	168	MDI	none	none	dmso		1					GPL11533	0	0	pharmacological
+GSE56688	GSM1366863	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	0.5	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366864	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	0.5	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366865	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	0.5	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366866	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	1	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366867	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	1	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366868	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	1	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366869	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	2	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366870	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	2	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366871	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	2	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366872	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	6	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366873	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	6	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366874	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	6	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366875	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	12	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366876	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	12	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366877	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	12	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366878	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	24	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366879	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	24	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366880	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	24	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366881	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	36	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366882	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	36	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366883	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	36	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366884	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	48	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366885	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	48	1	mcm		GPL11533	0	0	pharmacological
+GSE56688	GSM1366886	24788520	168	MDI	drug	lipogenesis	rosiglitazone		1	48	1	mcm		GPL11533	0	0	pharmacological
+GSE53004	GSM1280255	24848799	0	none	none	none	dmso						2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280256	24848799	0	none	none	none	dmso						2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280257	24848799	0	none	none	none	dmso						2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280258	24848799	240	MDI	none	none	none						2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280259	24848799	240	MDI	none	none	none						2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280260	24848799	240	MDI	none	none	none						2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280261	24848799	0	none	drug	lipogenesis	rosiglitazone		0	240	500	nm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280262	24848799	0	none	drug	lipogenesis	rosiglitazone		0	240	500	nm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280263	24848799	0	none	drug	lipogenesis	rosiglitazone		0	240	500	nm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280264	24848799	0	none	drug	lipogenesis	butylparaben		0	240	100	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280265	24848799	0	none	drug	lipogenesis	butylparaben		0	240	100	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280266	24848799	0	none	drug	lipogenesis	butylparaben		0	240	100	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280267	24848799	0	none	drug	non-lipogenic	ethylene brassylate		0	240	100	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280268	24848799	0	none	drug	non-lipogenic	ethylene brassylate		0	240	100	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280269	24848799	0	none	drug	non-lipogenic	ethylene brassylate		0	240	100	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280270	24848799	0	none	drug	non-lipogenic	bis (2-ethylhexyl) phthalate		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280271	24848799	0	none	drug	non-lipogenic	bis (2-ethylhexyl) phthalate		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280272	24848799	0	none	drug	non-lipogenic	bis (2-ethylhexyl) phthalate		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280273	24848799	0	none	drug	lipogenesis	bisphenol A		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280274	24848799	0	none	drug	lipogenesis	bisphenol A		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280275	24848799	0	none	drug	lipogenesis	bisphenol A		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280276	24848799	0	none	drug	lipogenesis	butylbenzyl phthalate		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280277	24848799	0	none	drug	lipogenesis	butylbenzyl phthalate		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280278	24848799	0	none	drug	lipogenesis	butylbenzyl phthalate		0	240	50	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280279	24848799	0	none	drug	lipogenesis	propylparaben		0	240	200	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280280	24848799	0	none	drug	lipogenesis	propylparaben		0	240	200	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280281	24848799	0	none	drug	lipogenesis	propylparaben		0	240	200	mcm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280282	24848799	0	none	drug	lipogenesis	tributyltin		0	240	50	nm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280283	24848799	0	none	drug	lipogenesis	tributyltin		0	240	50	nm	2	GPL11202	0	0	pharmacological
+GSE53004	GSM1280284	24848799	0	none	drug	lipogenesis	tributyltin		0	240	50	nm	2	GPL11202	0	0	pharmacological
+GSE51905	GSM1254880	24566853	168	MDI	none	none	dmso		0	168				GPL11533	0	0	pharmacological
+GSE51905	GSM1254881	24566853	168	MDI	none	none	dmso		0	168				GPL11533	0	0	pharmacological
+GSE51905	GSM1254882	24566853	168	MDI	none	none	dmso		0	168				GPL11533	0	0	pharmacological
+GSE51905	GSM1254883	24566853	168	MDI	none	none	dmso		0	168				GPL11533	0	0	pharmacological
+GSE51905	GSM1254884	24566853	168	MDI	drug	SCD1	SCD inhibitor		0	168	1	mcm		GPL11533	0	0	pharmacological
+GSE51905	GSM1254885	24566853	168	MDI	drug	SCD1	SCD inhibitor		0	168	1	mcm		GPL11533	0	0	pharmacological
+GSE51905	GSM1254886	24566853	168	MDI	drug	SCD1	SCD inhibitor		0	168	1	mcm		GPL11533	0	0	pharmacological
+GSE42330	GSM1037932	23917077	240	MDI	none	none	saline		1	72				GPL13912	0	0	pharmacological
+GSE42330	GSM1037933	23917077	240	MDI	none	none	saline		1	72				GPL13912	0	0	pharmacological
+GSE42330	GSM1037934	23917077	240	MDI	drug	adipocytokine	asbestose	chrysotile	1	72	10	mg		GPL13912	0	0	pharmacological
+GSE42330	GSM1037935	23917077	240	MDI	drug	adipocytokine	asbestose	chrysotile	1	72	10	mg		GPL13912	0	0	pharmacological
+GSE42330	GSM1037936	23917077	240	MDI	drug	adipocytokine	asbestose	crocidolite	1	72	10	mg		GPL13912	0	0	pharmacological
+GSE42330	GSM1037937	23917077	240	MDI	drug	adipocytokine	asbestose	crocidolite	1	72	10	mg		GPL13912	0	0	pharmacological
+GSE42330	GSM1037938	23917077	240	MDI	drug	adipocytokine	asbestose	amosite	1	72	10	mg		GPL13912	0	0	pharmacological
+GSE42330	GSM1037939	23917077	240	MDI	drug	adipocytokine	asbestose	amosite	1		10	mg		GPL13912	0	0	pharmacological
+GSE43658	GSM1067687	23499424	216	MDI	drug	lipolysis	isoproterenol		1	3	10	mcm		GPL14661	0	1	pharmacological
+GSE43658	GSM1067688	23499424	216	MDI	drug	lipolysis	isoproterenol		1	3	10	mcm		GPL14661	0	1	pharmacological
+GSE43658	GSM1067689	23499424	216	MDI	drug	lipolysis	isoproterenol		1	3	10	mcm		GPL14661	0	1	pharmacological
+GSE41340	GSM1015179	23428407	0	none	drug	lipogenesis	tributyltin		0	24	10	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015180	23428407	24	MDI	none	none	none						2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015181	23428407	24	MDI	none	none	none						2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015182	23428407	24	MDI	none	none	none						2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015183	23428407	0	none	drug	lipogenesis	tributyltin		0	24	50	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015184	23428407	0	none	drug	lipogenesis	tributyltin		0	24	10	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015185	23428407	0	none	drug	lipogenesis	tributyltin		0	24	10	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015186	23428407	24	MDI	none	none	none						2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015187	23428407	0	none	none	none	dmso		0	24			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015188	23428407	0	none	drug	lipogenesis	tributyltin		0	24	50	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015189	23428407	0	none	none	none	dmso		0	24			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015190	23428407	0	none	drug	lipogenesis	tributyltin		0	24	50	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015191	23428407	0	none	none	none	dmso		0	24			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015192	23428407	0	none	none	none	dmso		0	24			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015193	23428407	0	none	none	none	dmso		0	240			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015194	23428407	0	none	none	none	dmso		0	240			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015195	23428407	0	none	drug	lipogenesis	tributyltin		0	240	50	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015196	23428407	0	none	none	none	dmso		0	240			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015197	23428407	0	none	none	none	dmso		0	240			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015198	23428407	0	none	drug	lipogenesis	tributyltin		0	240	50	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015199	23428407	0	none	drug	lipogenesis	tributyltin		0	240	50	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015200	23428407	0	none	drug	lipogenesis	tributyltin		0	240	10	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015201	23428407	0	none	drug	lipogenesis	tributyltin		0	240	10	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015202	23428407	240	MDI	none	none	none						2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015203	23428407	0	none	drug	lipogenesis	tributyltin		0	240	10	nm	2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015204	23428407	240	MDI	none	none	none		0	240			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015205	23428407	240	MDI	none	none	none		0	240			2	GPL11202	1	0	pharmacological
+GSE41340	GSM1015206	23428407	240	MDI	none	none	none		0	240			2	GPL11202	1	0	pharmacological
+GSE42220	GSM1035793	23392251	192	MDI	none	none	none							GPL11533	0	0	pharmacological
+GSE42220	GSM1035794	23392251	192	MDI	none	none	none							GPL11533	0	0	pharmacological
+GSE42220	GSM1035795	23392251	192	MDI	none	none	none							GPL11533	0	0	pharmacological
+GSE42220	GSM1035796	23392251	192	MDI	none	none	none							GPL11533	0	0	pharmacological
+GSE42220	GSM1035797	23392251	192	MDI	drug	lipogenesis	SFA	palmitic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035798	23392251	192	MDI	drug	lipogenesis	SFA	palmitic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035799	23392251	192	MDI	drug	lipogenesis	SFA	palmitic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035800	23392251	192	MDI	drug	lipogenesis	SFA	palmitic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035801	23392251	192	MDI	drug	lipogenesis	SFA	palmitoleic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035802	23392251	192	MDI	drug	lipogenesis	SFA	palmitoleic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035803	23392251	192	MDI	drug	lipogenesis	SFA	palmitoleic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035804	23392251	192	MDI	drug	lipogenesis	SFA	palmitoleic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035805	23392251	192	MDI	drug	lipogenesis	SFA	stearic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035806	23392251	192	MDI	drug	lipogenesis	SFA	stearic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035807	23392251	192	MDI	drug	lipogenesis	SFA	stearic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035808	23392251	192	MDI	drug	lipogenesis	SFA	stearic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035809	23392251	192	MDI	drug	lipogenesis	SFA	oleic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035810	23392251	192	MDI	drug	lipogenesis	SFA	oleic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE42220	GSM1035811	23392251	192	MDI	drug	lipogenesis	SFA	oleic acide	1	48	250	mm		GPL11533	0	0	pharmacological
+GSE18598	GSM462491	22453831	24	MDI	drug	LSD1	LSD1 inhibitor	tranylcypromine	0					GPL1261	0	0	pharmacological
+GSE26207	GSM643492	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643493	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643494	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643495	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643496	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643497	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643498	21843327	312	MDI	drug	PPARD	PPARD agonist	GW610742	1	48	100	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643499	21843327	312	MDI	drug	PPARD	PPARD agonist	GW610742	1	48	100	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643500	21843327	312	MDI	drug	PPARD	PPARD agonist	GW610742	1	48	100	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643501	21843327	312	MDI	drug	PPARD	PPARD agonist	GW610742	1	48	100	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643502	21843327	312	MDI	drug	PPARD	PPARD agonist	GW610742	1	48	100	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643503	21843327	312	MDI	drug	PPARD	PPARD agonist	GW610742	1	48	100	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643504	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643505	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643506	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643507	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643508	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643509	21843327	312	MDI	none	none	dmso		1	48				GPL6887	0	0	pharmacological
+GSE26207	GSM643510	21843327	312	MDI	drug	PPARG	PPARG agonist	GW347845	1	48	10	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643511	21843327	312	MDI	drug	PPARG	PPARG agonist	GW347845	1	48	10	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643512	21843327	312	MDI	drug	PPARG	PPARG agonist	GW347845	1	48	10	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643513	21843327	312	MDI	drug	PPARG	PPARG agonist	GW347845	1	48	10	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643514	21843327	312	MDI	drug	PPARG	PPARG agonist	GW347845	1	48	10	nm		GPL6887	0	0	pharmacological
+GSE26207	GSM643515	21843327	312	MDI	drug	PPARG	PPARG agonist	GW347845	1	48	10	nm		GPL6887	0	0	pharmacological
+GSE21157	GSM529618	21385419	48	MDI	drug	lipogenesis	bilberry		0		100	nm		GPL4134	0	0	pharmacological
+GSE21157	GSM529619	21385419	48	MDI	drug	lipogenesis	anthocyanidins	delphinidin	0		100	nm		GPL4134	0	0	pharmacological
+GSE21157	GSM529620	21385419	48	MDI	none	none	dmso		0					GPL4134	0	0	pharmacological
+GSE21157	GSM529621	21385419	48	MDI	drug	lipogenesis	anthocyanidins	cyanidin	0		100	nm		GPL4134	0	0	pharmacological
+GSE20696	GSM519579	20887899	-48	MDI	none	none	none							GPL1261	0	0	none
+GSE20696	GSM519580	20887899	-48	MDI	none	none	none							GPL1261	0	0	none
+GSE20696	GSM519581	20887899	0	MDI	none	none	none							GPL1261	0	0	none
+GSE20696	GSM519582	20887899	0	MDI	none	none	none							GPL1261	0	0	none
+GSE20696	GSM519583	20887899	48	MDI	none	none	none							GPL1261	0	0	none
+GSE20696	GSM519584	20887899	48	MDI	none	none	none							GPL1261	0	0	none
+GSE20696	GSM519585	20887899	168	MDI	none	none	none							GPL1261	0	0	none
+GSE20696	GSM519586	20887899	168	MDI	none	none	none							GPL1261	0	0	none
+GSE24105	GSM593262	21187916	168	MDI	none	none	ethanol		1					GPL6887	0	0	pharmacological
+GSE24105	GSM593263	21187916	168	MDI	none	none	ethanol		1					GPL6887	0	0	pharmacological
+GSE24105	GSM593264	21187916	168	MDI	none	none	ethanol		1					GPL6887	0	0	pharmacological
+GSE24105	GSM593265	21187916	168	MDI	drug	insulin response	dexamethasone		1		500	nm		GPL6887	0	0	pharmacological
+GSE24105	GSM593266	21187916	168	MDI	drug	insulin response	dexamethasone		1		500	nm		GPL6887	0	0	pharmacological
+GSE24105	GSM593267	21187916	168	MDI	drug	insulin response	dexamethasone		1		500	nm		GPL6887	0	0	pharmacological
+GSE18103	GSM452481	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452482	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452483	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452484	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452485	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452486	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452487	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452488	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452489	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452490	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452491	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452492	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452493	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452494	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452495	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452496	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452497	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452498	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452499	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452500	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452501	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452502	21081660	240	MDI	none	none	dmso		1	72				GPL9191	0	1	pharmacological
+GSE18103	GSM452503	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452504	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452505	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452506	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452507	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452508	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452509	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452510	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452511	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452512	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452513	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452514	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452515	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452516	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452517	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452518	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452519	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452520	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452521	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452522	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452523	21081660	240	MDI	drug	insulin response	"TNF,dmso"		1	72	3	ng		GPL9191	0	1	pharmacological
+GSE18103	GSM452524	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,5"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452525	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,6"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452526	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,7"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452527	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,8"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452528	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,9"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452529	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,10"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452530	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,11"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452531	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,12"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452532	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,13"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452533	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,14"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452534	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,15"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452535	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,16"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452536	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,17"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452537	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,18"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452538	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,19"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452539	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,20"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452540	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,21"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452541	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,22"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452542	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,23"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452543	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,24"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE18103	GSM452544	21081660	240	MDI	drug	insulin response	"TNF,aspirin,troglitazone"		1	72	"3,10,25"	"ng,mm,mm"		GPL9191	0	1	pharmacological
+GSE17404	GSM434639	20965713	168	MDI	drug	AMPK	linoleic acide		1		2	mm		GPL1261	0	0	pharmacological
+GSE17404	GSM434640	20965713	168	MDI	drug	AMPK	linoleic acide		1		2	mm		GPL1261	0	0	pharmacological
+GSE17404	GSM434641	20965713	168	MDI	drug	AMPK	linoleic acide		1		2	mm		GPL1261	0	0	pharmacological
+GSE17404	GSM434642	20965713	168	MDI	drug	AMPK	CLA	t10c12	1		2	mm		GPL1261	0	0	pharmacological
+GSE17404	GSM434643	20965713	168	MDI	drug	AMPK	CLA	t10c12	1		2	mm		GPL1261	0	0	pharmacological
+GSE17404	GSM434644	20965713	168	MDI	drug	AMPK	CLA	t10c12	1		2	mm		GPL1261	0	0	pharmacological
+GSE17404	GSM434645	20965713	168	MDI	drug	AMPK	phenoformin		1					GPL1261	0	0	pharmacological
+GSE17404	GSM434646	20965713	168	MDI	drug	AMPK	phenoformin		1					GPL1261	0	0	pharmacological
+GSE17404	GSM434647	20965713	168	MDI	drug	AMPK	phenoformin		1					GPL1261	0	0	pharmacological
+GSE15018	GSM375503	21572918	0	none	none	none	none			0				GPL6845	0	0	pharmacological
+GSE15018	GSM375504	21572918	0	none	none	none	none			0.25				GPL6845	0	0	pharmacological
+GSE15018	GSM375505	21572918	0	none	none	none	none			0.5				GPL6845	0	0	pharmacological
+GSE15018	GSM375506	21572918	0	none	none	none	none			1				GPL6845	0	0	pharmacological
+GSE15018	GSM375507	21572918	0	none	none	none	none			2				GPL6845	0	0	pharmacological
+GSE15018	GSM375508	21572918	0	none	none	none	none			3				GPL6845	0	0	pharmacological
+GSE15018	GSM375509	21572918	0	none	none	none	none			5				GPL6845	0	0	pharmacological
+GSE15018	GSM375510	21572918	0	none	none	none	none			9				GPL6845	0	0	pharmacological
+GSE15018	GSM375511	21572918	0	none	none	none	none			12				GPL6845	0	0	pharmacological
+GSE15018	GSM375512	21572918	0	none	none	none	none			15				GPL6845	0	0	pharmacological
+GSE15018	GSM375513	21572918	0	none	none	none	none			24				GPL6845	0	0	pharmacological
+GSE15018	GSM375514	21572918	0	none	none	none	none			36				GPL6845	0	0	pharmacological
+GSE15018	GSM375515	21572918	0	none	none	none	none			48				GPL6845	0	0	pharmacological
+GSE15018	GSM375516	21572918	0	none	none	none	none			96				GPL6845	0	0	pharmacological
+GSE15018	GSM375517	21572918	0	none	none	none	none			144				GPL6845	0	0	pharmacological
+GSE15018	GSM375518	21572918	0	none	none	none	none			192				GPL6845	0	0	pharmacological
+GSE15018	GSM375519	21572918	0	none	none	none	none			240				GPL6845	0	0	pharmacological
+GSE15018	GSM375520	21572918	0	none	none	none	none			288				GPL6845	0	0	pharmacological
+GSE15018	GSM375521	21572918	0	none	none	none	dmso		0	0				GPL6845	0	0	pharmacological
+GSE15018	GSM375522	21572918	0	none	none	none	dmso		0	0.25				GPL6845	0	0	pharmacological
+GSE15018	GSM375523	21572918	0	none	none	none	dmso		0	0.5				GPL6845	0	0	pharmacological
+GSE15018	GSM375524	21572918	0	none	none	none	dmso		0	1				GPL6845	0	0	pharmacological
+GSE15018	GSM375525	21572918	0	none	none	none	dmso		0	2				GPL6845	0	0	pharmacological
+GSE15018	GSM375526	21572918	0	none	none	none	dmso		0	3				GPL6845	0	0	pharmacological
+GSE15018	GSM375527	21572918	0	none	none	none	dmso		0	5				GPL6845	0	0	pharmacological
+GSE15018	GSM375528	21572918	0	none	none	none	dmso		0	9				GPL6845	0	0	pharmacological
+GSE15018	GSM375529	21572918	0	none	none	none	dmso		0	12				GPL6845	0	0	pharmacological
+GSE15018	GSM375530	21572918	0	none	none	none	dmso		0	15				GPL6845	0	0	pharmacological
+GSE15018	GSM375531	21572918	0	none	none	none	dmso		0	24				GPL6845	0	0	pharmacological
+GSE15018	GSM375532	21572918	0	none	none	none	dmso		0	36				GPL6845	0	0	pharmacological
+GSE15018	GSM375533	21572918	0	none	none	none	dmso		0	48				GPL6845	0	0	pharmacological
+GSE15018	GSM375534	21572918	0	none	none	none	dmso		0	96				GPL6845	0	0	pharmacological
+GSE15018	GSM375535	21572918	0	none	none	none	dmso		0	144				GPL6845	0	0	pharmacological
+GSE15018	GSM375536	21572918	0	none	none	none	dmso		0	192				GPL6845	0	0	pharmacological
+GSE15018	GSM375537	21572918	0	none	none	none	dmso		0	240				GPL6845	0	0	pharmacological
+GSE15018	GSM375538	21572918	0	none	none	none	dmso		0	288				GPL6845	0	0	pharmacological
+GSE15018	GSM375539	21572918	0	none	drug	Zfp68	prieurianin		0	0	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375540	21572918	0	none	drug	Zfp68	prieurianin		0	0.25	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375541	21572918	0	none	drug	Zfp68	prieurianin		0	0.5	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375542	21572918	0	none	drug	Zfp68	prieurianin		0	1	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375543	21572918	0	none	drug	Zfp68	prieurianin		0	2	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375544	21572918	0	none	drug	Zfp68	prieurianin		0	3	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375545	21572918	0	none	drug	Zfp68	prieurianin		0	5	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375546	21572918	0	none	drug	Zfp68	prieurianin		0	9	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375547	21572918	0	none	drug	Zfp68	prieurianin		0	12	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375548	21572918	0	none	drug	Zfp68	prieurianin		0	15	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375549	21572918	0	none	drug	Zfp68	prieurianin		0	24	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375550	21572918	0	none	drug	Zfp68	prieurianin		0	36	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375551	21572918	0	none	drug	Zfp68	prieurianin		0	48	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375552	21572918	0	none	drug	Zfp68	prieurianin		0	96	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375553	21572918	0	none	drug	Zfp68	prieurianin		0	144	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375554	21572918	0	none	drug	Zfp68	prieurianin		0	192	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375555	21572918	0	none	drug	Zfp68	prieurianin		0	240	2	mcm		GPL6845	0	0	pharmacological
+GSE15018	GSM375556	21572918	0	none	drug	Zfp68	prieurianin		0	288	2	mcm		GPL6845	0	0	pharmacological
+GSE14888	GSM372030	19828681	144	MDI	drug	AMPK	linoleic acide		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372031	19828681	144	MDI	drug	AMPK	linoleic acide		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372032	19828681	144	MDI	drug	AMPK	linoleic acide		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372033	19828681	144	MDI	drug	AMPK	CLA	t10c12	1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372034	19828681	144	MDI	drug	AMPK	CLA	t10c12	1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372035	19828681	144	MDI	drug	AMPK	CLA	t10c12	1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372036	19828681	144	MDI	drug	AMPK	metformin		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372037	19828681	144	MDI	drug	AMPK	metformin		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372038	19828681	144	MDI	drug	AMPK	metformin		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372039	19828681	144	MDI	drug	AMPK	"CLA,metformin"		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372040	19828681	144	MDI	drug	AMPK	"CLA,metformin"		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14888	GSM372041	19828681	144	MDI	drug	AMPK	"CLA,metformin"		1		2	mcm		GPL1261	0	0	pharmacological
+GSE14810	GSM370634	22013433	168	MDI	drug	insulin response	rosiglitazone		1	1	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370635	22013433	168	MDI	drug	insulin response	rosiglitazone		1	1	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370636	22013433	168	MDI	drug	insulin response	rosiglitazone		1	1	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370637	22013433	168	MDI	drug	insulin response	rosiglitazone		1	2	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370638	22013433	168	MDI	drug	insulin response	rosiglitazone		1	2	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370639	22013433	168	MDI	drug	insulin response	rosiglitazone		1	2	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370640	22013433	168	MDI	drug	insulin response	rosiglitazone		1	4	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370641	22013433	168	MDI	drug	insulin response	rosiglitazone		1	4	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370642	22013433	168	MDI	drug	insulin response	rosiglitazone		1	4	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370643	22013433	168	MDI	drug	insulin response	rosiglitazone		1	7	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370644	22013433	168	MDI	drug	insulin response	rosiglitazone		1	7	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370645	22013433	168	MDI	drug	insulin response	rosiglitazone		1	7	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370646	22013433	168	MDI	drug	insulin response	rosiglitazone		1	24	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370647	22013433	168	MDI	drug	insulin response	rosiglitazone		1	24	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370648	22013433	168	MDI	drug	insulin response	rosiglitazone		1	24	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370649	22013433	168	MDI	drug	insulin response	rosiglitazone		1	48	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370650	22013433	168	MDI	drug	insulin response	rosiglitazone		1	48	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370651	22013433	168	MDI	drug	insulin response	rosiglitazone		1	48	1	mcm		GPL339	0	0	pharmacological
+GSE14810	GSM370670	22013433	168	MDI	none	none	dmso		1	1				GPL339	0	0	pharmacological
+GSE14810	GSM370671	22013433	168	MDI	none	none	dmso		1	1				GPL339	0	0	pharmacological
+GSE14810	GSM370672	22013433	168	MDI	none	none	dmso		1	1				GPL339	0	0	pharmacological
+GSE14810	GSM370673	22013433	168	MDI	none	none	dmso		1	2				GPL339	0	0	pharmacological
+GSE14810	GSM370674	22013433	168	MDI	none	none	dmso		1	2				GPL339	0	0	pharmacological
+GSE14810	GSM370675	22013433	168	MDI	none	none	dmso		1	4				GPL339	0	0	pharmacological
+GSE14810	GSM370676	22013433	168	MDI	none	none	dmso		1	4				GPL339	0	0	pharmacological
+GSE14810	GSM370677	22013433	168	MDI	none	none	dmso		1	4				GPL339	0	0	pharmacological
+GSE14810	GSM370678	22013433	168	MDI	none	none	dmso		1	7				GPL339	0	0	pharmacological
+GSE14810	GSM370679	22013433	168	MDI	none	none	dmso		1	7				GPL339	0	0	pharmacological
+GSE14810	GSM370680	22013433	168	MDI	none	none	dmso		1	7				GPL339	0	0	pharmacological
+GSE14810	GSM370681	22013433	168	MDI	none	none	dmso		1	24				GPL339	0	0	pharmacological
+GSE14810	GSM370682	22013433	168	MDI	none	none	dmso		1	24				GPL339	0	0	pharmacological
+GSE14810	GSM370683	22013433	168	MDI	none	none	dmso		1	24				GPL339	0	0	pharmacological
+GSE14810	GSM370684	22013433	168	MDI	none	none	dmso		1	48				GPL339	0	0	pharmacological
+GSE14810	GSM370685	22013433	168	MDI	none	none	dmso		1	48				GPL339	0	0	pharmacological
+GSE14810	GSM370686	22013433	168	MDI	none	none	dmso		1	48				GPL339	0	0	pharmacological
+GSE11249	GSM284035	18653467	0	none	drug	insulin response	dexamethasone		0	2	1	mcm		GPL5137	0	1	pharmacological
+GSE11249	GSM284036	18653467	0	none	drug	insulin response	dexamethasone		0	2	1	mcm		GPL5137	0	1	pharmacological
+GSE11249	GSM284037	18653467	0	none	drug	insulin response	dexamethasone		0	2	1	mcm		GPL5137	0	1	pharmacological
+GSE11249	GSM284038	18653467	0	none	drug	insulin response	dexamethasone		0	2	1	mcm		GPL5137	0	1	pharmacological
+GSE11249	GSM284039	18653467	0	none	none	none	dmso		0	2				GPL5137	0	1	pharmacological
+GSE11249	GSM284040	18653467	0	none	none	none	dmso		0	2				GPL5137	0	1	pharmacological
+GSE11249	GSM284041	18653467	0	none	none	none	dmso		0	2				GPL5137	0	1	pharmacological
+GSE11249	GSM284042	18653467	0	none	none	none	dmso		0	2				GPL5137	0	1	pharmacological
+GSE11249	GSM284043	18653467	0	none	drug	insulin response	dexamethasone		0	36	1	mcm		GPL5137	0	1	pharmacological
+GSE11249	GSM284044	18653467	0	none	drug	insulin response	dexamethasone		0	36	1	mcm		GPL5137	0	1	pharmacological
+GSE11249	GSM284045	18653467	0	none	drug	insulin response	dexamethasone		0	36	1	mcm		GPL5137	0	1	pharmacological
+GSE11249	GSM284046	18653467	0	none	drug	insulin response	dexamethasone		0	36	1	mcm		GPL5137	0	1	pharmacological
+GSE11249	GSM284047	18653467	0	none	none	none	dmso		0	36				GPL5137	0	1	pharmacological
+GSE11249	GSM284048	18653467	0	none	none	none	dmso		0	36				GPL5137	0	1	pharmacological
+GSE11249	GSM284049	18653467	0	none	none	none	dmso		0	36				GPL5137	0	1	pharmacological
+GSE11249	GSM284050	18653467	0	none	none	none	dmso		0	36				GPL5137	0	1	pharmacological
+GSE8681	GSM215256	17878318	288	MDI	drug	AMPK	linoleic acide		1	4	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215257	17878318	288	MDI	drug	AMPK	linoleic acide		1	4	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215258	17878318	288	MDI	drug	AMPK	linoleic acide		1	4	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215259	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	4	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215260	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	8	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215261	17878318	288	MDI	drug	AMPK	linoleic acide		1	8	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215262	17878318	288	MDI	drug	AMPK	linoleic acide		1	8	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215263	17878318	288	MDI	drug	AMPK	linoleic acide		1	8	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215264	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	8	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215265	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	8	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215266	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	8	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215267	17878318	288	MDI	drug	AMPK	linoleic acide		1	12	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215268	17878318	288	MDI	drug	AMPK	linoleic acide		1	12	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215269	17878318	288	MDI	drug	AMPK	linoleic acide		1	12	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215270	17878318	288	MDI	drug	AMPK	linoleic acide		1	12	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215271	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	12	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215272	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	12	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215273	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	12	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215274	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	12	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215275	17878318	288	MDI	drug	AMPK	linoleic acide		1	24	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215276	17878318	288	MDI	drug	AMPK	linoleic acide		1	24	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215277	17878318	288	MDI	drug	AMPK	linoleic acide		1	24	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215278	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	24	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215279	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	24	100	mcm		GPL1261	0	0	pharmacological
+GSE8681	GSM215280	17878318	288	MDI	drug	AMPK	CLA	t10c12	1	24	100	mcm		GPL1261	0	0	pharmacological
+GSE8682	GSM215285	17878318	288	MDI	none	none	none							GPL1261	0	0	pharmacological
+GSE8682	GSM215286	17878318	288	MDI	drug	stress response	tunicamycin		1	4				GPL1261	0	0	pharmacological
+GSE8682	GSM215287	17878318	288	MDI	none	none	none							GPL1261	0	0	pharmacological
+GSE8682	GSM215288	17878318	288	MDI	none	none	none							GPL1261	0	0	pharmacological
+GSE8682	GSM215289	17878318	288	MDI	drug	stress response	tunicamycin		1	8				GPL1261	0	0	pharmacological
+GSE8682	GSM215290	17878318	288	MDI	none	none	none							GPL1261	0	0	pharmacological
+GSE8682	GSM215291	17878318	288	MDI	drug	stress response	tunicamycin		1	12				GPL1261	0	0	pharmacological
+GSE8682	GSM215292	17878318	288	MDI	drug	stress response	tunicamycin		1	12				GPL1261	0	0	pharmacological
+GSE8683	GSM215299	17878318	0	MDI	drug	AMPK	linoleic acide		0	4				GPL1261	0	0	pharmacological
+GSE8683	GSM215300	17878318	0	MDI	drug	AMPK	CLA	t10c12	0	4				GPL1261	0	0	pharmacological
+GSE8683	GSM215301	17878318	0	MDI	drug	AMPK	CLA	t10c12	0	4				GPL1261	0	0	pharmacological
+GSE8683	GSM215302	17878318	0	MDI	drug	AMPK	linoleic acide		0	8				GPL1261	0	0	pharmacological
+GSE8683	GSM215303	17878318	0	MDI	drug	AMPK	linoleic acide		0	8				GPL1261	0	0	pharmacological
+GSE8683	GSM215304	17878318	0	MDI	drug	AMPK	CLA	t10c12	0	8				GPL1261	0	0	pharmacological
+GSE8683	GSM215305	17878318	0	MDI	drug	AMPK	CLA	t10c12	0	8				GPL1261	0	0	pharmacological
+GSE8683	GSM215306	17878318	0	MDI	drug	AMPK	linoleic acide		0	12				GPL1261	0	0	pharmacological
+GSE8683	GSM215307	17878318	0	MDI	drug	AMPK	linoleic acide		0	12				GPL1261	0	0	pharmacological
+GSE8683	GSM215308	17878318	0	MDI	drug	AMPK	CLA	t10c12	0	12				GPL1261	0	0	pharmacological
+GSE8683	GSM215309	17878318	0	MDI	drug	AMPK	CLA	t10c12	0	12				GPL1261	0	0	pharmacological
+GSE8684	GSM215314	17878318	288	MDI	drug	AMPK	CLA	c9t11	1	8				GPL1261	0	0	pharmacological
+GSE8684	GSM215315	17878318	288	MDI	drug	AMPK	CLA	c9t11	1	12				GPL1261	0	0	pharmacological
+GSE8684	GSM215316	17878318	288	MDI	drug	AMPK	linoleic acide		1	8				GPL1261	0	0	pharmacological
+GSE8684	GSM215317	17878318	288	MDI	drug	AMPK	linoleic acide		1	8				GPL1261	0	0	pharmacological
+GSE8684	GSM215318	17878318	288	MDI	drug	AMPK	linoleic acide		1	8				GPL1261	0	0	pharmacological
+GSE8684	GSM215319	17878318	288	MDI	drug	AMPK	linoleic acide		1	8				GPL1261	0	0	pharmacological
+GSE8684	GSM215320	17878318	288	MDI	drug	AMPK	linoleic acide		1	12				GPL1261	0	0	pharmacological
+GSE8684	GSM215321	17878318	288	MDI	drug	AMPK	linoleic acide		1	12				GPL1261	0	0	pharmacological
+GSE8684	GSM215322	17878318	288	MDI	drug	AMPK	linoleic acide		1	12				GPL1261	0	0	pharmacological
+GSE8684	GSM215323	17878318	288	MDI	drug	AMPK	linoleic acide		1	12				GPL1261	0	0	pharmacological
+GSE4683	GSM105473	17245590	192	MDI	drug	insulin response	"insulin, glucose"		1	48	"1,15.75"	"mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105474	17245590	192	MDI	drug	insulin response	"insulin, glucose"		1	48	"1,15.75"	"mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105475	17245590	192	MDI	drug	insulin response	"insulin, glucose"		1	48	"1,15.75"	"mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105476	17245590	192	MDI	drug	insulin response	"insulin, glucose"		1	48	"1,15.75"	"mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105844	17245590	192	MDI	drug	insulin response	"rosiglitazone,insulin,glucose"		1	48	".5,1,15.75"	"mcm,mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105845	17245590	192	MDI	drug	insulin response	"rosiglitazone,insulin,glucose"		1	48	".5,1,15.75"	"mcm,mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105846	17245590	192	MDI	drug	insulin response	"rosiglitazone,insulin,glucose"		1	48	".5,1,15.75"	"mcm,mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105847	17245590	192	MDI	drug	insulin response	"rosiglitazone,insulin,glucose"		1	48	".5,1,15.75"	"mcm,mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105848	17245590	192	MDI	drug	insulin response	"rosiglitazone,insulin,glucose"		1	48	".5,1,15.75"	"mcm,mcm,mm"	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105854	17245590	192	MDI	drug	insulin response	glucose		1	48	4.5	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105855	17245590	192	MDI	drug	insulin response	glucose		1	48	4.5	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105856	17245590	192	MDI	drug	insulin response	glucose		1	48	4.5	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105857	17245590	192	MDI	drug	insulin response	glucose		1	48	4.5	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105858	17245590	192	MDI	drug	insulin response	glucose		1	48	4.5	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105859	17245590	192	MDI	drug	insulin response	insulin		1	48	1	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105860	17245590	192	MDI	drug	insulin response	insulin		1	48	1	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105861	17245590	192	MDI	drug	insulin response	insulin		1	48	1	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105862	17245590	192	MDI	drug	insulin response	insulin		1	48	1	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105863	17245590	192	MDI	drug	insulin response	rosiglitazone		1	48	0.5	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105864	17245590	192	MDI	drug	insulin response	rosiglitazone		1	48	0.5	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105865	17245590	192	MDI	drug	insulin response	rosiglitazone		1	48	0.5	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105866	17245590	192	MDI	drug	insulin response	rosiglitazone		1	48	0.5	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105867	17245590	192	MDI	drug	insulin response	rosiglitazone		1	48	0.5	mcm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105868	17245590	192	MDI	drug	insulin response	glucose		1	48	15.75	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105869	17245590	192	MDI	drug	insulin response	glucose		1	48	15.75	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105870	17245590	192	MDI	drug	insulin response	glucose		1	48	15.75	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105871	17245590	192	MDI	drug	insulin response	glucose		1	48	15.75	mm	2	GPL3666	0	0	pharmacological
+GSE4683	GSM105872	17245590	192	MDI	drug	insulin response	glucose		1	48	15.75	mm	2	GPL3666	0	0	pharmacological
+GSE1458	GSM24459	15217816	288	MDI	none	none	dmso		1	24				GPL81	0	0	pharmacological
+GSE1458	GSM24460	15217816	288	MDI	none	none	dmso		1	24				GPL81	0	0	pharmacological
+GSE1458	GSM24461	15217816	288	MDI	none	none	dmso		1	24				GPL81	0	0	pharmacological
+GSE1458	GSM24462	15217816	288	MDI	drug	insulin response	pioglitazone		1	24	20	mcm		GPL81	0	0	pharmacological
+GSE1458	GSM24463	15217816	288	MDI	drug	insulin response	pioglitazone		1	24	20	mcm		GPL81	0	0	pharmacological
+GSE1458	GSM24464	15217816	288	MDI	drug	insulin response	rosiglitazone		1	24	1	mcm		GPL81	0	0	pharmacological
+GSE1458	GSM24465	15217816	288	MDI	drug	insulin response	rosiglitazone		1	24	1	mcm		GPL81	0	0	pharmacological
+GSE1458	GSM24466	15217816	288	MDI	drug	insulin response	rosiglitazone		1	24	1	mcm		GPL81	0	0	pharmacological
+GSE1458	GSM24467	15217816	288	MDI	drug	insulin response	troglitazone		1	24	20	mcm		GPL81	0	0	pharmacological
+GSE1458	GSM24468	15217816	288	MDI	drug	insulin response	troglitazone		1	24	20	mcm		GPL81	0	0	pharmacological
+GSE1458	GSM24469	15217816	288	MDI	drug	insulin response	troglitazone		1	24	20	mcm		GPL81	0	0	pharmacological

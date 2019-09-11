@@ -1,0 +1,31 @@
+Package: curatedAdipoArray
+Type: Package
+Title: A Curated Microarrays Dataset of MDI-induced Differentiated Adipocytes 
+    (3T3-L1) Under Genetic and Pharmacological Perturbations
+Version: 0.99.11
+Year: 2019
+Description: A curated dataset of Microarrays samples. The samples are MDI-
+    induced pre-phagocytes (3T3-L1) at different time points/stage of 
+    differentiation under different types of genetic (knockdown/overexpression)
+    and pharmacological (drung treatment). The package document the data 
+    collection and processing. In addition to the documentation, the package 
+    contains the scripts that was used to generated the data.
+License: GPL-3
+Authors@R: person("Mahmoud", "Ahmed",
+    email = "mahmoud.s.fahmy@students.kasralainy.edu.eg",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0002-4377-6541"))
+URL: https://github.com/MahShaaban/curatedAdipoArray
+BugReports: https://github.com/MahShaaban/curatedAdipoArray/issues
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+LazyData: TRUE
+Depends: R (>= 3.6),
+    Biobase
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+biocViews: ExperimentData,
+    GEO,
+    MicroarrayData
