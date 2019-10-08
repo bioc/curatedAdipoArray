@@ -2,10 +2,11 @@
 SCR=inst/scripts
 LOG=log
 
-all: $(LOG)/log-dir\
+all: $(LOG)/log-dir \
 	$(LOG)/get-data \
 	$(LOG)/clean-data \
 	$(LOG)/merge-data \
+	$(LOG)/batch-data \
 	$(LOG)/test-data \
 	$(LOG)/make-metadata
 
@@ -25,6 +26,9 @@ $(LOG)/clean-data: $(SCR)/clean-data.R \
 
 $(LOG)/merge-data: $(SCR)/merge-data.R \
 	$(SCR)/curated_metadata.tsv
+	R CMD BATCH --vanilla $< $(LOG)/$(@F)
+
+$(LOG)/batch-data: $(SCR)/batch-data.R
 	R CMD BATCH --vanilla $< $(LOG)/$(@F)
 
 $(LOG)/test-data: $(SCR)/test-data.R

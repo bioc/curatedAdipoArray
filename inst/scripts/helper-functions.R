@@ -84,3 +84,45 @@ clean_eset <- function(gse, md, symbol_col, symbols, collapse = FALSE) {
     # return eset
     return(eset)
 }
+
+#' Remove a given batche effect from an ExpressionSet
+#'
+#' @param eset An ExpressionSet object
+#' @param remove_na A logical
+#' @param filter  A logical
+#' @param normalize  A logical
+#'
+#' @return An ExpressionSet object
+#'
+#' @export
+remove_batch <- function(eset, batch, remove_na = TRUE, filter = TRUE,
+                         normalize = TRUE) {
+  # get expression data
+  mat <- Biobase::exprs(eset)
+
+  # remove NA
+  if (remove_na) {
+    ind <- apply(mat, 1, function(x) sum(is.na(x)))
+    mat <- mat[ind == 0,]
+  }
+
+  # filter low intensities
+  if (filter) {
+    mat[mat < 0] <- 0
+    mat <- mat[rowMeans(mat) > 10,]
+  }
+
+  # normalize
+  if (normalize) {
+    mat <- limma::normalizeBetweenArrays(log2(mat + 1))
+  }
+
+  # remove batch
+  mat <- sva::ComBat(mat,
+                     batch = batch)
+
+  # return
+  newset <- ExpressionSet(mat,
+                          phenoData = phenoData(eset))
+  return(newset)
+}

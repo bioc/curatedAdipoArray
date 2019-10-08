@@ -1,0 +1,196 @@
+---
+title: "Using curatedAdipoArray"
+author: "Mahmoud Ahmed"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+    %\VignetteIndexEntry{Using curatedAdipoArray}
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+    collapse = TRUE,
+    comment = "#>"
+)
+```
+
+# curatedAdipoArray
+
+A Curated Microarrays Dataset of MDI-induced Differentiated Adipocytes (3T3-L1)
+Under Genetic and Pharmacological Perturbations
+
+# Overview
+
+A curated dataset of Microarrays samples. The samples are MDI-induced pre-
+adipocytes (3T3-L1) at different time points/stage of differentiation under 
+different types of genetic (knockdown/overexpression) and pharmacological 
+(drug treatment). The package documents the data collection and processing.
+In addition to the documentation, the package contains the scripts that was
+used to generated the data.
+
+# Introduction
+
+## What is `curatedAdipoArray`?
+
+This package is for documenting and distributing a curated dataset of gene 
+expression from MDI-induced 3T3-L1 adipocyte cell model under genetic and
+pharmacological modification.
+
+## What is contained in `curatedAdipoArray`?
+
+The package contains two things:
+
+1. Scripts for documenting and reproducing the dataset in `inst/scripts`.
+2. Access to the clean and the processed data `ExpressionSet` objects through
+`ExperimentHub`.
+
+## What is `curatedAdipoArray` for?
+
+The data contained in the package can be used in any number of downstream
+analysis such as differential expression and gene set enrichment.
+
+# Installation
+
+The `curatedAdipoArray` package can be installed from Bioconductor using 
+`BiocManager`.
+
+```{r install_biocmanager,eval=FALSE}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("curatedAdipoArray")
+```
+
+# Docker image
+
+The pre-processing and processing of the data setup environment is available as
+a `docker` image. This image is also suitable for reproducing this document. 
+The `docker` image can be obtained using the `docker` CLI client.
+
+```
+$ docker pull bcmslab/adiporeg_array:latest
+```
+
+# Generating `curatedAdipoArray`
+
+## Data collection and acquisition
+
+We surveyed the literature for MDI-induced 3T3-L1 microarrays studies with or 
+without course perturbations. 43 published studies were included. 47 datasets
+from these studies were examined for metadata and annotation completeness. One
+and two studies were excluded for missing probe intensities and probe 
+annotations respectively. In addition to the data and the metadata, the 
+original publications were also examined to extract the experimental design and
+other missing experimental details. The remaining datasets were curated, 
+cleaned and packaged in two final datasets for each type of differentiation 
+course perturbation.
+
+## Data processing and quality assessment
+
+The probe intensities, probe annotation and metadata of each study were 
+obtained from the gene expression omnibus (GEO) using `GEOquery`. The probe
+intensities (expression matrices) were collapsed using probe to gene symbol
+annotation using `collapsRow`. The metadata for studies, data series and 
+samples were homogenized across studies using common vocabularies to describe
+the experimental designs. Information for each sample of the differentiation 
+status and time point were retrieved and recorded. In addition, the treatment 
+type, target, dose and time were added for each sample. The processed datasets
+were packaged in `R`/`Bioconductor``ExpressionSet` object individually.
+
+For illustration purposes, the dataset objects were merged into two separate 
+`ExpressionSet` for the genetic or the pharmacological perturbations. In each 
+set, missing and low intensity genes were removed. Then the gene intensities 
+were log transformed and normalized across studies using `limma`. Finally, 
+the known batch effects (data series and platform) were removed using `sva`.
+
+# Exploring the data objects
+
+```{r loading_libraries, eval=FALSE}
+# loading required libraries
+library(ExperimentHub)
+library(Biobase)
+```
+
+```{r loading_data, eval=FALSE}
+# query package resources on ExperimentHub
+eh <- ExperimentHub()
+query(eh, "curatedAdipoArray")
+```
+
+```{r genetics_object, eval=FALSE}
+genetic <- query(eh, 'curatedAdipoArray')[['genetic_perturbations']]
+```
+
+Each of the objects attached to this package is an `ExpressionSet`. This object
+contains two main tables. The first is the expression matrix in the form of 
+probe/gene intensities. The second table is the sample metadata. 
+
+```{r expression_set, eval=FALSE}
+# show class of the expression set
+class(genetic)
+
+# show the first table
+exprs(genetic)[1:5, 1:5]
+
+# show the second table
+pData(genetic)[1:5,]
+```
+
+The samples metadata were manually curated using controlled vocabularies to make
+comparing and combining the data easier. Table 1. show the columns and
+the descriptions of the metadata table.
+
+```{r, echo=FALSE}
+column_desc <- list(
+"series_id" = "The GEO series identifier.",
+"sample_id"="The GEO sample identifier.",
+"pmid"="The pubmed identifier of the published study.",
+"time"="The time from the start of the differentiation protocol in hours.",
+"media"="The differentiation media MDI or none.",
+"treatment"="The treatment status: none, drug, knockdown or overexpression.",
+"treatment_target"="The target of the treatment: gene name or a biological 
+pathway.",
+"treatment_type"="The type of the treatment.",
+"treatment_subtype"="The detailed subtype of the treatment.",
+"treatment_time"="The time of the treatment in relation to differentiation time
+: -1, before; 0, at; and 1 after the start of the differentiation induction.",
+"treatment_duration"="The duration from the treatment to the collection of the 
+RNA from the sample.",
+"treatment_dose"="The dose of the treatment.",                           
+"treatment_dose_unit"="The dose unit of the treatment.",                       
+"channels"="The number of the channels on the array chip: 1 or 2.",
+"gpl"="The GEO GPL/annotation identifier.",
+"geo_missing"="The availability of the data on GEO: 0 or 1.",
+"symbol_missing"="The availability of the gene symbol of the probes in  the GPL
+object.",                                 
+"perturbation_type"="The type of the perturbation: genetic or pharmacological."
+)
+knitr::kable(
+    data.frame(
+        col_id = names(column_desc),
+        description = unlist(column_desc, use.names = FALSE)
+    )
+)
+```
+                    
+# Citing the studies in this subset of the data
+
+The original articles where the datasets were first published are recorded by 
+their pubmid ID. Please, cite the articles when using their datasets.
+
+
+# Citing `curatedAdipoArray`
+
+To cite the package use:
+
+```{r citation, eval=FALSE}
+# citing the package
+citation("curatedAdipoArray")
+```
+
+# Session Info
+
+```{r session_info, eval=FALSE}
+devtools::session_info()
+```

@@ -1,2 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^cleandata$
+^log$
+^rawdata$
+^docker$
+^\.travis\.yml$
+^appveyor\.yml$
+^LICENSE\.md$

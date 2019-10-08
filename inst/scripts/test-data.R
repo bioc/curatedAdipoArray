@@ -16,7 +16,7 @@ test_that("clean data is formated properly.", {
 
       esets <- map(fls, read_rds)
 
-      expect_true(all(unlist(map(esets, ~class(.x) == 'ExpressionSet'))))
+      expect_true(all(unlist(map(esets, ~is(.x, 'ExpressionSet')))))
       expect_true(all(unlist(map(esets, ~nrow(pData(.x)) > 1))))
       expect_true(all(unlist(map(esets, ~ncol(pData(.x)) > 1))))
       expect_true(all(unlist(map(esets, ~ncol(exprs(.x)) > 1))))
