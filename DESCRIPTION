@@ -2,7 +2,7 @@ Package: curatedAdipoArray
 Type: Package
 Title: A Curated Microarrays Dataset of MDI-induced Differentiated Adipocytes 
     (3T3-L1) Under Genetic and Pharmacological Perturbations
-Version: 0.99.0
+Version: 0.99.1
 Year: 2019
 Description: A curated dataset of Microarrays samples. The samples are MDI-
     induced pre-adipocytes (3T3-L1) at different time points/stage of 
@@ -20,7 +20,7 @@ BugReports: https://github.com/MahShaaban/curatedAdipoArray/issues
 Encoding: UTF-8
 RoxygenNote: 6.1.1
 LazyData: TRUE
-Depends: R (>= 3.6)
+Depends: R (>= 4.0)
 Suggests: 
     knitr,
     rmarkdown
