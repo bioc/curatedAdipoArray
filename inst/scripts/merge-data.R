@@ -4,36 +4,32 @@ library(org.Mm.eg.db)
 library(BiocGenerics)
 
 # load and combine esets ------------------------------------------------------
-if (!file.exists('cleandata/genetic_perturbation.rds')) {
-  # load metadata
-  md <- read_tsv('inst/scripts/curated_metadata.tsv')
-  genetic <- unique(md$series_id[md$perturbation_type != 'pharmacological'])
-  fls <- paste0('cleandata/', genetic, '.eSet.rds')
-  fls <- fls[file.exists(fls)]
+# load metadata
+md <- read_tsv('inst/extdata/curated_metadata.tsv')
+genetic <- unique(md$series_id[md$perturbation_type != 'pharmacological'])
+fls <- paste0('cleandata/', genetic, '.eSet.rds')
+fls <- fls[file.exists(fls)]
 
-  # read clean esets in a list
-  eset_list <- map(fls, read_rds)
+# read clean esets in a list
+eset_list <- map(fls, read_rds)
 
-  # combine esets
-  combined_eset <- do.call('combine', eset_list)
+# combine esets
+combined_eset <- do.call('combine', eset_list)
 
-  # save combined esets
-  write_rds(combined_eset, 'genetic_perturbation.rds')
-}
+# save combined esets
+write_rds(combined_eset, 'cleandata/genetic_perturbation.rds')
 
-if (!file.exists('cleandata/pharmacological_perturbation.rds')) {
-  # load metadata
-  md <- read_tsv('inst/scripts/curated_metadata.tsv')
-  pharma <- unique(md$series_id[md$perturbation_type != 'genetic'])
-  fls <- paste0('cleandata/', pharma, '.eSet.rds')
-  fls <- fls[file.exists(fls)]
+# load metadata
+md <- read_tsv('inst/extdata/curated_metadata.tsv')
+pharma <- unique(md$series_id[md$perturbation_type != 'genetic'])
+fls <- paste0('cleandata/', pharma, '.eSet.rds')
+fls <- fls[file.exists(fls)]
 
-  # read clean esets in a list
-  eset_list <- map(fls, read_rds)
+# read clean esets in a list
+eset_list <- map(fls, read_rds)
 
-  # combine esets
-  combined_eset <- do.call('combine', eset_list)
+# combine esets
+combined_eset <- do.call('combine', eset_list)
 
-  # save combined esets
-  write_rds(combined_eset, 'cleandata/pharmacological_perturbation.rds')
-}
+# save combined esets
+write_rds(combined_eset, 'cleandata/pharmacological_perturbation.rds')

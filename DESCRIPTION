@@ -7,9 +7,9 @@ Year: 2019
 Description: A curated dataset of Microarrays samples. The samples are MDI-
     induced pre-adipocytes (3T3-L1) at different time points/stage of 
     differentiation under different types of genetic (knockdown/overexpression)
-    and pharmacological (drug treatment). The package documents the data 
-    collection and processing. In addition to the documentation, the package 
-    contains the scripts that was used to generated the data.
+    and pharmacological (drug treatment) perturbations. The package documents
+    the data collection and processing. In addition to the documentation, the 
+    package contains the scripts that was used to generated the data.
 License: GPL-3
 Authors@R: person("Mahmoud", "Ahmed",
     email = "mahmoud.s.fahmy@students.kasralainy.edu.eg",
@@ -20,11 +20,12 @@ BugReports: https://github.com/MahShaaban/curatedAdipoArray/issues
 Encoding: UTF-8
 RoxygenNote: 6.1.1
 LazyData: TRUE
-Depends: R (>= 3.7)
+Depends: R (>= 3.6)
 Suggests: 
     knitr,
     rmarkdown
 VignetteBuilder: knitr
 biocViews: ExperimentData,
+    ExperimentHub,
     GEO,
     MicroarrayData

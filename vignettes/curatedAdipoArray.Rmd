@@ -26,9 +26,9 @@ Under Genetic and Pharmacological Perturbations
 A curated dataset of Microarrays samples. The samples are MDI-induced pre-
 adipocytes (3T3-L1) at different time points/stage of differentiation under 
 different types of genetic (knockdown/overexpression) and pharmacological 
-(drug treatment). The package documents the data collection and processing.
-In addition to the documentation, the package contains the scripts that was
-used to generated the data.
+(drug treatment) perturbations. The package documents the data collection and
+processing. In addition to the documentation, the package contains the scripts
+that was used to generated the data.
 
 # Introduction
 
@@ -91,7 +91,7 @@ course perturbation.
 The probe intensities, probe annotation and metadata of each study were 
 obtained from the gene expression omnibus (GEO) using `GEOquery`. The probe
 intensities (expression matrices) were collapsed using probe to gene symbol
-annotation using `collapsRow`. The metadata for studies, data series and 
+annotation using `collapsRows`. The metadata for studies, data series and 
 samples were homogenized across studies using common vocabularies to describe
 the experimental designs. Information for each sample of the differentiation 
 status and time point were retrieved and recorded. In addition, the treatment 
@@ -177,8 +177,7 @@ knitr::kable(
 # Citing the studies in this subset of the data
 
 The original articles where the datasets were first published are recorded by 
-their pubmid ID. Please, cite the articles when using their datasets.
-
+their pubmid ID. Please, cite the articles when using the related dataset.
 
 # Citing `curatedAdipoArray`
 

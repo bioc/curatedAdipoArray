@@ -1,17 +1,21 @@
-# load required libraries
+# load libraries --------------------------------------------------------------
 library(tidyverse)
 library(Biobase)
 
+# get list of clean data files ------------------------------------------------
 fls <- list.files('cleandata',
                   pattern = 'GSE*',
                   full.names = TRUE)
 names(fls) <- fls
+
+# extract phenotype data from each file ---------------------------------------
 md1 <- map(fls, function(x) {
     gse <- read_rds(x)
     as.data.frame(pData(gse))
   }) %>%
   bind_rows(.id = 'path')
 
+# make metadata table for clean data files ------------------------------------
 md1 %>%
   group_by(series_id) %>%
   summarise(
@@ -24,7 +28,7 @@ md1 %>%
       " treatment for ",
       paste0(unique(treatment_target), collapse = '/')
     ),
-    BiocVersion = "3.9",
+    BiocVersion = "3.10",
     Genome = 'mm10',
     SourceType = "GSEmatrix",
     SourceUrl = "https://github.com/MahShaaban/curatedAdipoArray",
@@ -43,10 +47,12 @@ md1 %>%
   select(-series_id) %>%
   write_csv('inst/extdata/metadata.csv')
 
+# extract phenotype data from processed files ---------------------------------
 fls <- list.files('cleandata',
                   pattern = '*_perturbations*',
                   full.names = TRUE)
 
+# make metadata table for clean processed files -------------------------------
 data.frame(path = fls) %>%
   mutate(
     type = str_split(path, '\\_|/', simplify = TRUE)[, 2],

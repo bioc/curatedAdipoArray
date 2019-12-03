@@ -1,5 +1,6 @@
 #!/bin/bash
 SCR=inst/scripts
+EXT=inst/extdata
 LOG=log
 
 all: $(LOG)/log-dir \
@@ -15,17 +16,17 @@ $(LOG)/log-dir:
 	echo "inst/log" created > $(LOG)/$(@F)
 
 $(LOG)/get-data: $(SCR)/get-data.R \
-	$(SCR)/curated_metadata.tsv
+	$(EXT)/curated_metadata.tsv
 	R CMD BATCH --vanilla $< $(LOG)/$(@F)
 
 $(LOG)/clean-data: $(SCR)/clean-data.R \
 	$(SCR)/helper-functions.R \
-	$(SCR)/curated_metadata.tsv \
-	$(SCR)/gpl_symbols.tsv
+	$(EXT)/curated_metadata.tsv \
+	$(EXT)/gpl_symbols.tsv
 	R CMD BATCH --vanilla $< $(LOG)/$(@F)
 
 $(LOG)/merge-data: $(SCR)/merge-data.R \
-	$(SCR)/curated_metadata.tsv
+	$(EXT)/curated_metadata.tsv
 	R CMD BATCH --vanilla $< $(LOG)/$(@F)
 
 $(LOG)/batch-data: $(SCR)/batch-data.R

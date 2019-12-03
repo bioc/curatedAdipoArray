@@ -10,8 +10,8 @@ source('inst/scripts/helper-functions.R')
 allowWGCNAThreads(4)
 
 # load metadata and annotation data -------------------------------------------
-md <- read_tsv('inst/scripts/curated_metadata.tsv')
-gpls_symbol <- read_tsv('inst/scripts/gpl_symbols.tsv')
+md <- read_tsv('inst/extdata/curated_metadata.tsv')
+gpls_symbol <- read_tsv('inst/extdata/gpl_symbols.tsv')
 
 # merge md and gpls_symbol
 series_symbol <- md %>%
@@ -28,29 +28,24 @@ symbols <- keys(org.Mm.eg.db, 'SYMBOL')
 if(!dir.exists('cleandata')) {
   dir.create('cleandata')
 }
-
+## run clean_eset
 map2(series_symbol$series_id, series_symbol$symbol_col,
      function(x, y) {
+       try({
+         # load eset
+         gse <- getGEO(x,
+                       destdir = 'rawdata')[[1]]
 
-        if (file.exists(paste0('cleandata/', x,'.eSet.rds'))) {
-          print(paste(x, 'exists.'))
-        } else {
-          try({
-            # load eset
-            gse <- getGEO(x,
-                          destdir = 'rawdata')[[1]]
-
-            # clean eset
-            eset <- clean_eset(
-              gse,
-              md,
-              y,
-              symbols,
-              collapse = TRUE
-            )
-            # write eset
-            write_rds(eset,
-                      path = paste0('cleandata/', x, '.eSet.rds'))
-          })
-        }
+         # clean eset
+         eset <- clean_eset(
+             gse,
+             md,
+             y,
+             symbols,
+             collapse = TRUE
+         )
+         # write eset
+         write_rds(eset,
+                   path = paste0('cleandata/', x, '.eSet.rds'))
+       })
      })
