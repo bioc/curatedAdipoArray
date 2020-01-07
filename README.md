@@ -28,8 +28,8 @@ pharmacological modification.
 The package contains two things:
 
 1. Scripts for documenting and reproducing the dataset in `inst/scripts`.
-2. Access to the clean and the processed data `ExpressionSet` objects through
-`ExperimentHub`.
+2. Access to the clean and the processed data `SummarizedExperiment` objects
+through `ExperimentHub`.
 
 ## What is `curatedAdipoArray` for?
 

@@ -43,8 +43,8 @@ pharmacological modification.
 The package contains two things:
 
 1. Scripts for documenting and reproducing the dataset in `inst/scripts`.
-2. Access to the clean and the processed data `ExpressionSet` objects through
-`ExperimentHub`.
+2. Access to the clean and the processed data `SummarizedExperiment` objects
+through `ExperimentHub`.
 
 ## What is `curatedAdipoArray` for?
 
@@ -96,20 +96,21 @@ samples were homogenized across studies using common vocabularies to describe
 the experimental designs. Information for each sample of the differentiation 
 status and time point were retrieved and recorded. In addition, the treatment 
 type, target, dose and time were added for each sample. The processed datasets
-were packaged in `R`/`Bioconductor``ExpressionSet` object individually.
+were packaged in `R`/`Bioconductor``SummarizedExperiment` object individually.
 
 For illustration purposes, the dataset objects were merged into two separate 
-`ExpressionSet` for the genetic or the pharmacological perturbations. In each 
-set, missing and low intensity genes were removed. Then the gene intensities 
-were log transformed and normalized across studies using `limma`. Finally, 
-the known batch effects (data series and platform) were removed using `sva`.
+`SummarizedExperiment` for the genetic or the pharmacological perturbations. In
+each set, missing and low intensity genes were removed. Then the gene 
+intensities were log transformed and normalized across studies using `limma`.
+Finally, the known batch effects (data series and platform) were removed using
+`sva`.
 
 # Exploring the data objects
 
 ```{r loading_libraries, eval=FALSE}
 # loading required libraries
 library(ExperimentHub)
-library(Biobase)
+library(SummarizedExperiment)
 ```
 
 ```{r loading_data, eval=FALSE}
@@ -122,19 +123,19 @@ query(eh, "curatedAdipoArray")
 genetic <- query(eh, 'curatedAdipoArray')[['genetic_perturbations']]
 ```
 
-Each of the objects attached to this package is an `ExpressionSet`. This object
-contains two main tables. The first is the expression matrix in the form of 
-probe/gene intensities. The second table is the sample metadata. 
+Each of the objects attached to this package is an `SummarizedExperiment`.
+This object contains two main tables. The first is the expression matrix in
+the form of probe/gene intensities. The second table is the sample metadata. 
 
 ```{r expression_set, eval=FALSE}
-# show class of the expression set
+# show class of the SummarizedExperiment
 class(genetic)
 
 # show the first table
-exprs(genetic)[1:5, 1:5]
+assay(genetic)[1:5, 1:5]
 
 # show the second table
-pData(genetic)[1:5,]
+colData(genetic)[1:5,]
 ```
 
 The samples metadata were manually curated using controlled vocabularies to make
@@ -187,6 +188,13 @@ To cite the package use:
 # citing the package
 citation("curatedAdipoArray")
 ```
+
+# Related Packages
+
+The packages [curatedAdipoRNA](https://github.com/MahShaaban/curatedAdipoRNA)
+and [curatedAdipoChIP](https://github.com/MahShaaban/curatedAdipoChIP) contain
+gene expression and DNA-binding of important factors in the same cell line
+model, respectively.
 
 # Session Info
 

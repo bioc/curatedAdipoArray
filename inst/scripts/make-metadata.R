@@ -1,9 +1,9 @@
 # load libraries --------------------------------------------------------------
 library(tidyverse)
-library(Biobase)
+library(SummarizedExperiment)
 
 # get list of clean data files ------------------------------------------------
-fls <- list.files('cleandata',
+fls <- list.files('clean_se',
                   pattern = 'GSE*',
                   full.names = TRUE)
 names(fls) <- fls
@@ -11,7 +11,7 @@ names(fls) <- fls
 # extract phenotype data from each file ---------------------------------------
 md1 <- map(fls, function(x) {
     gse <- read_rds(x)
-    as.data.frame(pData(gse))
+    as.data.frame(colData(gse))
   }) %>%
   bind_rows(.id = 'path')
 
@@ -38,7 +38,7 @@ md1 %>%
     Coordinate_1_based = TRUE,
     DataProvider = "GEO",
     Maintainer = "Mahmoud Ahmed <mahmoud.s.fahmy@students.kasralainy.edu.eg>",
-    RDataClass = "ExpressionSet",
+    RDataClass = "SummarizedExperiment",
     DispatchClass = "Rds",
     RDataPath = unique(path),
     Tags = "",
@@ -48,7 +48,7 @@ md1 %>%
   write_csv('inst/extdata/metadata.csv')
 
 # extract phenotype data from processed files ---------------------------------
-fls <- list.files('cleandata',
+fls <- list.files('clean_se',
                   pattern = '*_perturbations*',
                   full.names = TRUE)
 
@@ -77,7 +77,7 @@ data.frame(path = fls) %>%
     Coordinate_1_based = TRUE,
     DataProvider = "GEO",
     Maintainer = "Mahmoud Ahmed <mahmoud.s.fahmy@students.kasralainy.edu.eg>",
-    RDataClass = "ExpressionSet",
+    RDataClass = "SummarizedExperiment",
     DispatchClass = "Rds",
     RDataPath = path,
     Tags = "",

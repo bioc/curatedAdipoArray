@@ -9,6 +9,7 @@ all: $(LOG)/log-dir \
 	$(LOG)/merge-data \
 	$(LOG)/batch-data \
 	$(LOG)/test-data \
+	$(LOG)/make-se \
 	$(LOG)/make-metadata
 
 $(LOG)/log-dir:
@@ -33,6 +34,9 @@ $(LOG)/batch-data: $(SCR)/batch-data.R
 	R CMD BATCH --vanilla $< $(LOG)/$(@F)
 
 $(LOG)/test-data: $(SCR)/test-data.R
+	R CMD BATCH --vanilla $< $(LOG)/$(@F)
+
+$(LOG)/make-se: $(SCR)/make-se.R
 	R CMD BATCH --vanilla $< $(LOG)/$(@F)
 
 $(LOG)/make-metadata: $(SCR)/make-metadata.R
