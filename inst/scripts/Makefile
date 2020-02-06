@@ -39,5 +39,11 @@ $(LOG)/test-data: $(SCR)/test-data.R
 $(LOG)/make-se: $(SCR)/make-se.R
 	R CMD BATCH --vanilla $< $(LOG)/$(@F)
 
+$(LOG)/clean-dir:
+	cp clean_se/* .  && echo 'se objects moved to .' >> $(LOG)/clean-dir
+	rm -r clean_se/  && echo 'clean_se/ was removed' >> $(LOG)/clean-dir
+	rm -r cleandata/ && echo 'cleandata/ was removed' >> $(LOG)/clean-dir
+	rm -r rawdata/   && echo 'rawdata/ was removed' >> $(LOG)/clean-dir
+
 $(LOG)/make-metadata: $(SCR)/make-metadata.R
 	R CMD BATCH --vanilla $< $(LOG)/$(@F)

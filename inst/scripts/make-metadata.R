@@ -3,9 +3,7 @@ library(tidyverse)
 library(SummarizedExperiment)
 
 # get list of clean data files ------------------------------------------------
-fls <- list.files('clean_se',
-                  pattern = 'GSE*',
-                  full.names = TRUE)
+fls <- list.files('.', pattern = 'GSE*')
 names(fls) <- fls
 
 # extract phenotype data from each file ---------------------------------------
@@ -28,7 +26,7 @@ md1 %>%
       " treatment for ",
       paste0(unique(treatment_target), collapse = '/')
     ),
-    BiocVersion = "3.10",
+    BiocVersion = "3.11",
     Genome = 'mm10',
     SourceType = "GSEmatrix",
     SourceUrl = "https://github.com/MahShaaban/curatedAdipoArray",
@@ -40,7 +38,7 @@ md1 %>%
     Maintainer = "Mahmoud Ahmed <mahmoud.s.fahmy@students.kasralainy.edu.eg>",
     RDataClass = "SummarizedExperiment",
     DispatchClass = "Rds",
-    RDataPath = unique(path),
+    RDataPath = paste0('curatedAdipoArray/', unique(path)),
     Tags = "",
     Notes = ""
   ) %>%
@@ -48,14 +46,12 @@ md1 %>%
   write_csv('inst/extdata/metadata.csv')
 
 # extract phenotype data from processed files ---------------------------------
-fls <- list.files('clean_se',
-                  pattern = '*_perturbations*',
-                  full.names = TRUE)
+fls <- list.files('.', pattern = '*_perturbations*')
 
 # make metadata table for clean processed files -------------------------------
 data.frame(path = fls) %>%
   mutate(
-    type = str_split(path, '\\_|/', simplify = TRUE)[, 2],
+    type = str_split(path, '\\_|\\.', simplify = TRUE)[, 1],
     batch = ifelse(grepl('2', path), '(processed)', ''),
     Title = paste(
       "A Curated Microarrays Dataset", batch,"of MDI-induced",
@@ -67,7 +63,7 @@ data.frame(path = fls) %>%
       "different time points/stage of differentiation under different types",
       "of", type,"perturbations."
     ),
-    BiocVersion = "3.9",
+    BiocVersion = "3.11",
     Genome = "mm10",
     SourceType = "GSEmatrix",
     SourceUrl = "https://github.com/MahShaaban/curatedAdipoChIP",
@@ -79,7 +75,7 @@ data.frame(path = fls) %>%
     Maintainer = "Mahmoud Ahmed <mahmoud.s.fahmy@students.kasralainy.edu.eg>",
     RDataClass = "SummarizedExperiment",
     DispatchClass = "Rds",
-    RDataPath = path,
+    RDataPath = paste0('curatedAdipoArray/', path),
     Tags = "",
     Notes = ""
   ) %>%
