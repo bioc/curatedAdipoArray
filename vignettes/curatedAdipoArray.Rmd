@@ -12,7 +12,9 @@ vignette: >
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
     collapse = TRUE,
-    comment = "#>"
+    comment = "#>",
+    warning = FALSE,
+    message = FALSE
 )
 ```
 
@@ -107,27 +109,31 @@ Finally, the known batch effects (data series and platform) were removed using
 
 # Exploring the data objects
 
-```{r loading_libraries, eval=FALSE}
+```{r loading_libraries}
 # loading required libraries
 library(ExperimentHub)
 library(SummarizedExperiment)
 ```
 
-```{r loading_data, eval=FALSE}
+```{r loading_data}
 # query package resources on ExperimentHub
 eh <- ExperimentHub()
 query(eh, "curatedAdipoArray")
 ```
 
-```{r genetics_object, eval=FALSE}
-genetic <- query(eh, 'curatedAdipoArray')[['genetic_perturbations']]
+```{r choose_resource}
+listResources(eh, "curatedAdipoArray")[43]
+```
+
+```{r genetics_object}
+genetic <- query(eh, 'curatedAdipoArray')[[43]]
 ```
 
 Each of the objects attached to this package is an `SummarizedExperiment`.
 This object contains two main tables. The first is the expression matrix in
 the form of probe/gene intensities. The second table is the sample metadata. 
 
-```{r expression_set, eval=FALSE}
+```{r expression_set}
 # show class of the SummarizedExperiment
 class(genetic)
 
