@@ -2,7 +2,7 @@ Package: curatedAdipoArray
 Type: Package
 Title: A Curated Microarrays Dataset of MDI-induced Differentiated Adipocytes 
     (3T3-L1) Under Genetic and Pharmacological Perturbations
-Version: 1.15.0
+Version: 1.16.0
 Description: A curated dataset of Microarrays samples. The samples are MDI-
     induced pre-adipocytes (3T3-L1) at different time points/stage of 
     differentiation under different types of genetic (knockdown/overexpression)
